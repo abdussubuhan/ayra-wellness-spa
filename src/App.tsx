@@ -1,9 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Sparkles, 
-  Droplets, 
-  Flower2, 
   MapPin, 
   PhoneCall, 
   Clock, 
