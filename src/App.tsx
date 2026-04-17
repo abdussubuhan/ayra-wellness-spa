@@ -5,6 +5,9 @@ import {
   Clock, 
   CheckCircle2
 } from 'lucide-react';
+import heroImg from './assets/hero.png';
+import ayurvedaImg from './assets/ayurveda.png';
+import massageImg from './assets/massage.png';
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -82,7 +85,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <img 
-          src="/hero.png" 
+          src={heroImg} 
           alt="Ayra Spa Luxury Interior" 
           className="hero-bg" 
         />
@@ -132,7 +135,7 @@ function App() {
           </div>
         </motion.div>
         <motion.div className="split-image" variants={slideInRight}>
-          <img src="/ayurveda.png" alt="Ayurvedic treatments" />
+          <img src={ayurvedaImg} alt="Ayurvedic treatments" />
         </motion.div>
       </motion.section>
 
@@ -189,7 +192,7 @@ function App() {
           </a>
         </motion.div>
         <motion.div className="split-image" variants={slideInLeft}>
-          <img src="/massage.png" alt="Luxury Massage Room" />
+          <img src={massageImg} alt="Luxury Massage Room" />
         </motion.div>
       </motion.section>
 
